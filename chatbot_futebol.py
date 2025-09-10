@@ -14,14 +14,9 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # --- 1. CONFIGURAÇÃO INICIAL ---
 
-# ### MUDANÇA: Carrega as variáveis do arquivo .env para o ambiente
 load_dotenv()
 
-# ### MUDANÇA: As linhas que definiam as chaves aqui foram REMOVIDAS
-# os.environ["GROQ_API_KEY"] = "..." <--- REMOVIDA
-# os.environ["TAVILY_API_KEY"] = "..." <--- REMOVIDA
 
-# Esta verificação agora lê as chaves que o load_dotenv() carregou
 if not os.getenv("GROQ_API_KEY") or not os.getenv("TAVILY_API_KEY"):
     print("ERRO: Chaves de API não encontradas. Verifique se o arquivo .env existe e está correto.")
     exit()
