@@ -4,8 +4,6 @@ from dotenv import load_dotenv
 # Carrega as variáveis do arquivo .env para o ambiente
 load_dotenv()
 
-
-# ### FIM DAS LINHAS DE TESTE ###
 # Importações principais do LangChain
 from langchain_groq import ChatGroq
 from langchain_tavily import TavilySearch
