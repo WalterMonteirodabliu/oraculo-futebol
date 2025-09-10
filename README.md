@@ -22,7 +22,7 @@ Este projeto foi criado como um estudo sobre a arquitetura de Agentes de IA com 
 
 * **Python 3.9+**
 * **LangChain**: Framework principal para a construção do agente de IA.
-* **Groq API**: Fornece acesso a modelos de linguagem de alta velocidade (Llama 3, Mixtral).
+* **Groq API**: Fornece acesso a modelos de linguagem de alta velocidade (Llama 3.3).
 * **Tavily Search API**: Ferramenta de busca na web otimizada para Agentes de IA.
 
 ## Como Rodar o Projeto
